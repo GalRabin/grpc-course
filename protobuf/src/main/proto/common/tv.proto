@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package common;
+
+option java_multiple_files = true;
+option java_package = "com.galrabin.models";
+
+message TV {
+  string brand = 1;
+  int32 year = 2;
+}

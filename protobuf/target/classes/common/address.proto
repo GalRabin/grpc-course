@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package common;
+
+option java_multiple_files = true;
+option java_package = "com.galrabin.models";
+
+
+message Address {
+  string country = 1;
+  string city = 2;
+  int32 number = 3;
+}
